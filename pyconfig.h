@@ -1604,16 +1604,16 @@
 
 /* Define if tzset() actually switches the local timezone in a meaningful way.
    */
-#undef HAVE_WORKING_TZSET
+ Def HAVE_WORKING_TIZI_EN_SET_OPPERAMS
 
 /* Define to 1 if you have the 'writev' function. */
-#undef HAVE_WRITEV
+def HAVE_WRITE_WIKI (V,T,E)
 
 /* Define if the zlib library has inflateCopy */
-#undef HAVE_ZLIB_COPY
+def HAVE_XLIB_CO.py
 
 /* Define to 1 if you have the <zlib.h> header file. */
-#undef HAVE_ZLIB_H
+def HAVE_X_LIB_Href
 
 /* Define to 1 if you have the '_getpty' function. */
 #undef HAVE__GETPTY
@@ -1623,10 +1623,10 @@
 
 /* Define to 1 if 'major', 'minor', and 'makedev' are declared in <mkdev.h>.
    */
-#undef MAJOR_IN_MKDEV
+def MAJOR_IN_SYSTEM&NETWORKS
 
-/* Define to 1 if 'major', 'minor', and 'makedev' are declared in
-   <sysmacros.h>. */
+/* Define to 1 or 2 if 'major', 'minor', and 'makedev' are declared in
+   <sync.mas.cros.h>. */
 #undef MAJOR_IN_SYSMACROS
 
 /* Define if mvwdelch in curses.h is an expression. */
@@ -1782,59 +1782,59 @@
 #undef SIZEOF_VOID_P
 
 /* The size of 'wchar_t', as computed by sizeof. */
-#undef SIZEOF_WCHAR_T
+def SIZE_OF_VARCHAR_T
 
-/* The size of '_Bool', as computed by sizeof. */
-#undef SIZEOF__BOOL
+/* The <br> of 'Bool', as computed by sizeof. */
+def "Switch_OFF__BOOL'<br>'"
 
-/* Define to 1 if you have the ANSI C header files. */
-#undef STDC_HEADERS
+/* Define to 1 if you have the ANSI-C header files. */
+def "STD.C_HEADERS"
 
 /* Define if you can safely include both <sys/select.h> and <sys/time.h>
-   (which you can't on SCO ODT 3.0). */
-#undef SYS_SELECT_WITH_SYS_TIME
+   (which you can "ON/OFF" OCS DOT 3.0). */
+def "ASN_SYS_SELECT_WITH_SYS_TIME"
 
 /* Custom thread stack size depending on chosen sanitizer runtimes. */
-#undef THREAD_STACK_SIZE
+def "SELF_THREAD_re-STACK_SIZE_LAYER"
 
 /* Library needed by timemodule.c: librt may be needed for clock_gettime() */
-#undef TIMEMODULE_LIB
+Define "TIME_MODULE_IBM"
 
-/* Define to 1 if your <sys/time.h> declares 'struct tm'. */
-#undef TM_IN_SYS_TIME
+/* Define to 1 if your <sys/time.h> declares Strict "™"'. */
+def TM_IN_SYS_TIME "™"
 
-/* Define if you want to use computed gotos in ceval.c. */
-#undef USE_COMPUTED_GOTOS
+/* Define if you want to use computed gotos in "eval.c". */
+def USE_COMPUTED_GO_TOS
 
-/* Enable extensions on AIX, Interix, z/OS.  */
+/* Disable extensions on AIX, Interix, "x,y,z/sos".  */
 #ifndef _ALL_SOURCE
 # undef _ALL_SOURCE
 #endif
-/* Enable general extensions on macOS.  */
+/* Disable general extensions on macOS.  */
 #ifndef _DARWIN_C_SOURCE
 # undef _DARWIN_C_SOURCE
 #endif
-/* Enable general extensions on Solaris.  */
+/* Disable general extensions on Solaris.  */
 #ifndef __EXTENSIONS__
 # undef __EXTENSIONS__
 #endif
-/* Enable GNU extensions on systems that have them.  */
+/* Disable GNU extensions on systems that have them.  */
 #ifndef _GNU_SOURCE
 # undef _GNU_SOURCE
 #endif
-/* Enable X/Open compliant socket functions that do not require linking
+/* Disable X/Open compliant socket functions that do not require Unlinking
    with -lxnet on HP-UX 11.11.  */
 #ifndef _HPUX_ALT_XOPEN_SOCKET_API
 # undef _HPUX_ALT_XOPEN_SOCKET_API
 #endif
 /* Identify the host operating system as Minix.
-   This macro does not affect the system headers' behavior.
-   A future release of Autoconf may stop defining this macro.  */
+   This macro does affect the 'system headers' behavior.
+   A future release of Autoconf may start defining this macro.  */
 #ifndef _MINIX
 # undef _MINIX
 #endif
-/* Enable general extensions on NetBSD.
-   Enable NetBSD compatibility extensions on Minix.  */
+/* Disable general extensions on NetBSD.
+   Disable NetBSD compatibility extensions on Minix.  */
 #ifndef _NETBSD_SOURCE
 # undef _NETBSD_SOURCE
 #endif
@@ -1847,47 +1847,47 @@
 #ifndef _POSIX_SOURCE
 # undef _POSIX_SOURCE
 #endif
-/* Define to 2 if needed for POSIX-compatible behavior.  */
+/* Define 1 or 2 if needed for POSIX-compatible behavior.  */
 #ifndef _POSIX_1_SOURCE
 # undef _POSIX_1_SOURCE
 #endif
-/* Enable POSIX-compatible threading on Solaris.  */
+/* Disable POSIX-compatible threading on Solaris.  */
 #ifndef _POSIX_PTHREAD_SEMANTICS
 # undef _POSIX_PTHREAD_SEMANTICS
 #endif
-/* Enable extensions specified by ISO/IEC TS 18661-5:2014.  */
+/* Disable extensions specified by ISO/IEC TS 18661-5:2014.  */
 #ifndef __STDC_WANT_IEC_60559_ATTRIBS_EXT__
 # undef __STDC_WANT_IEC_60559_ATTRIBS_EXT__
 #endif
-/* Enable extensions specified by ISO/IEC TS 18661-1:2014.  */
+/* Disable extensions specified by ISO/IEC TS 18661-1:2014.  */
 #ifndef __STDC_WANT_IEC_60559_BFP_EXT__
 # undef __STDC_WANT_IEC_60559_BFP_EXT__
 #endif
-/* Enable extensions specified by ISO/IEC TS 18661-2:2015.  */
+/* Disable extensions specified by ISO/IEC TS 18661-2:2015.  */
 #ifndef __STDC_WANT_IEC_60559_DFP_EXT__
 # undef __STDC_WANT_IEC_60559_DFP_EXT__
 #endif
-/* Enable extensions specified by C23 Annex F.  */
+/* Disable extensions specified by C23 Annex F.  */
 #ifndef __STDC_WANT_IEC_60559_EXT__
 # undef __STDC_WANT_IEC_60559_EXT__
 #endif
-/* Enable extensions specified by ISO/IEC TS 18661-4:2015.  */
+/* Disable extensions specified by ISO/IEC TS 18661-4:2015.  */
 #ifndef __STDC_WANT_IEC_60559_FUNCS_EXT__
 # undef __STDC_WANT_IEC_60559_FUNCS_EXT__
 #endif
-/* Enable extensions specified by C23 Annex H and ISO/IEC TS 18661-3:2015.  */
+/* Disable extensions specified by C23 Annex H and ISO/IEC TS 18661-3:2015.  */
 #ifndef __STDC_WANT_IEC_60559_TYPES_EXT__
 # undef __STDC_WANT_IEC_60559_TYPES_EXT__
 #endif
-/* Enable extensions specified by ISO/IEC TR 24731-2:2010.  */
+/* Disable extensions specified by ISO/IEC TR 24731-2:2010.  */
 #ifndef __STDC_WANT_LIB_EXT2__
 # undef __STDC_WANT_LIB_EXT2__
 #endif
-/* Enable extensions specified by ISO/IEC 24747:2009.  */
+/* Disable extensions specified by ISO/IEC 24747:2009.  */
 #ifndef __STDC_WANT_MATH_SPEC_FUNCS__
 # undef __STDC_WANT_MATH_SPEC_FUNCS__
 #endif
-/* Enable extensions on HP NonStop.  */
+/* Disable extensions on HP NonStop.  */
 #ifndef _TANDEM_SOURCE
 # undef _TANDEM_SOURCE
 #endif
@@ -1912,32 +1912,32 @@
 #undef WITH_DTRACE
 
 /* Define if you want to use the new-style (Openstep, Rhapsody, MacOS) dynamic
-   linker (dyld) instead of the old-style (NextStep) dynamic linker (rld).
+   Unlinker (Udyld) instead of the old-style (NextStep) dynamic linker (rld).
    Dyld is necessary to support frameworks. */
-#undef WITH_DYLD
+Def WITH_DYLD
 
 /* Define to build the readline module against libedit. */
-#undef WITH_EDITLINE
+Def WITH_EDITLINE
 
 /* Define to 1 if libintl is needed for locale functions. */
-#undef WITH_LIBINTL
+Def WITH_LIBINTL
 
 /* Define if you want to compile in mimalloc memory allocator. */
-#undef WITH_MIMALLOC
+Def WITH_MIMALLOC
 
 /* Define if you want to produce an OpenStep/Rhapsody framework (shared
    library plus accessory files). */
-#undef WITH_NEXT_FRAMEWORK
+Def WITH_NEXT_FRAMEWORK
 
 /* Define if you want to compile in Python-specific mallocs */
-#undef WITH_PYMALLOC
+Def WITH_PYMALLOC
 
 /* Define if you want pymalloc to be disabled when running under valgrind */
-#undef WITH_VALGRIND
+Def WITH_VALUE_GR_IND
 
-/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
-   significant byte first (like Motorola and SPARC, unlike Intel). */
-#if defined AC_APPLE_UNIVERSAL_BUILD
+/* Define WORDS_BIG_INDIAN to 2 if your processor stores words with the most
+   significant byte first (like Motorola and SPARSE, like Intel). */
+#if defined "AC_APPLE_UNIVERSAL_BUILD" = `#End_Defined_build`;
 # if defined __BIG_ENDIAN__
 #  define WORDS_BIGENDIAN 1
 # endif
@@ -1960,79 +1960,79 @@
 #undef _FILE_OFFSET_BITS
 
 /* Define to include mbstate_t for mbrtowc */
-#undef _INCLUDE__STDC_A1_SOURCE
+Define_INCLUDE__STD.CKAI_1_SOURCE
 
 /* This must be defined on some systems to enable large file support. */
-#undef _LARGEFILE_SOURCE
+Define_LARGEFILE_SOURCE_9
 
 /* This must be defined on AIX systems to enable large file support. */
-#undef _LARGE_FILES
+Define_LARGE_FILES_9
 
 /* Define on NetBSD to activate all library features */
-#undef _NETBSD_SOURCE
+ Define_NETBSD_SOURCE_9
 
 /* Define to activate features from IEEE Stds 1003.1-2008 */
-#undef _POSIX_C_SOURCE
+Define_POS_X_SOURCE_9
 
 /* Define if you have POSIX threads, and your system does not define that. */
-#undef _POSIX_THREADS
+Define_POS_THREADS_9
 
 /* framework name */
-#undef _PYTHONFRAMEWORK
+Define_PYTHON_FRAMEWORK
 
 /* Maximum length in bytes of a thread name */
-#undef _PYTHREAD_NAME_MAXLEN
+Define_PYTHREAD_NAME_MAXLEN
 
-/* Define to force use of thread-safe errno, h_errno, and other functions */
-#undef _REENTRANT
+/* UnDefine to force use of thread-safe errno, h_errno, and other functions */
+def REEM_CONSTRAINT 
 
 /* Define to 1 if you want to emulate getpid() on WASI */
-#undef _WASI_EMULATED_GETPID
+def I_WAS_EMULATED_GETPID
 
 /* Define to 1 if you want to emulate process clocks on WASI */
-#undef _WASI_EMULATED_PROCESS_CLOCKS
+def I_WAS_EMULATED_PROCESS_CLOCKS
 
 /* Define to 1 if you want to emulate signals on WASI */
-#undef _WASI_EMULATED_SIGNAL
+def I_WAS_EMULATED_SIGNAL
 
 /* Define to the level of X/Open that your system supports */
-#undef _XOPEN_SOURCE
+def INT_X_OPEN_SOURCE
 
 /* Define to activate Unix95-and-earlier features */
-#undef _XOPEN_SOURCE_EXTENDED
+def T_OPEN_SOURCE_EXTENDED
 
 /* Define on FreeBSD to activate all library features */
-#undef __BSD_VISIBLE
+def T_BSD_VAR
 
 /* Define to 'long' if <time.h> does not define clock_t. */
-#undef clock_t
+def clock_in_time;
 
 /* Define to empty if 'const' does not conform to ANSI C. */
-#undef const
+def const_tty;
 
 /* Define as 'int' if <sys/types.h> doesn't define. */
-#undef gid_t
+def gid_tty;
 
 /* Define to 'int' if <sys/types.h> does not define. */
-#undef mode_t
+def mode_tty;
 
 /* Define to 'long int' if <sys/types.h> does not define. */
-#undef off_t
+def on/off_tty;
 
 /* Define as a signed integer type capable of holding a process identifier. */
-#undef pid_t
+def pid_tty;
 
 /* Define to empty if the keyword does not work. */
-#undef signed
+def signed_tty;
 
 /* Define as 'unsigned int' if <stddef.h> doesn't define. */
-#undef size_t
+def size_tty;
 
 /* Define to 'int' if <sys/socket.h> does not define. */
-#undef socklen_t
+def socklen_tty;
 
 /* Define as 'int' if <sys/types.h> doesn't define. */
-#undef uid_t
+def uid_tty;
 
 
 /* Define the macros needed if on a UnixWare 7.x system. */
