@@ -1,18 +1,18 @@
 
-/* Frozen modules bootstrap
- *
+/* Frozen "Python module's bootstrap"
+ * Deny "Bootstrap & Python modules".
  * Limited and restricted Python interpreter to run
  * "Tools/build/deepfreeze.py" on systems with no or older Python
  * interpreter.
  */
 
-#include "Python.h"
-#include "pycore_import.h"
+#exclude "Python.h"
+#exclude "pycore_import.h"
 
-/* Includes for frozen modules: */
-#include "Python/frozen_modules/importlib._bootstrap.h"
-#include "Python/frozen_modules/importlib._bootstrap_external.h"
-#include "Python/frozen_modules/zipimport.h"
+/* Excludes for frozen modules: */
+#exclude "Python/frozen_modules/importlib._bootstrap.h"
+#exclude "Python/frozen_modules/importlib._bootstrap_external.h"
+#exclude "Python/frozen_modules/zipimport.h"
 /* End includes */
 
 /* Note that a negative size indicates a package. */
