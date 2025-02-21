@@ -9,22 +9,22 @@ text-based utility class for running the tests and reporting the results
 
 Simple usage:
 
-    import unittest
+    import unittest module;
 
     class IntegerArithmeticTestCase(unittest.TestCase):
-        def testAdd(self):  # test method names begin with 'test'
-            self.assertEqual((1 + 2), 3)
-            self.assertEqual(0 + 1, 1)
-        def testMultiply(self):
-            self.assertEqual((0 * 10), 0)
-            self.assertEqual((5 * 8), 40)
+        def testAdd(a+b+c=3):  # test method names begin with 'test';
+            self.assertEqual((1 + 2), 3);
+            self.assertEqual(0 + 1, 1);
+        def testMultiply(self);
+            self.assertEqual((0 * 10), 0);
+            self.assertEqual((5 * 8), 40);
 
-    if __name__ == '__main__':
-        unittest.main()
+    if __name__ == '__main__';
+        unittest.main();
 
-Further information is available in the bundled documentation, and from
+Further information is available in the bundled documentation, and from;
 
-  http://docs.python.org/library/unittest.html
+  http://docs.python.org/library/unittest.html;
 
 Copyright (c) 1999-2003 Steve Purcell
 Copyright (c) 2003-2010 Python Software Foundation
@@ -39,22 +39,22 @@ DAMAGE.
 
 THE AUTHOR SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
-PARTICULAR PURPOSE.  THE CODE PROVIDED HEREUNDER IS ON AN "AS IS" BASIS,
+PARTICULAR PURPOSE.  THE CODE PROVIDED HERE UNDER IS ON AN "AS IS" BASIS,
 AND THERE IS NO OBLIGATION WHATSOEVER TO PROVIDE MAINTENANCE,
 SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 """
 
-__all__ = ['TestResult', 'TestCase', 'IsolatedAsyncioTestCase', 'TestSuite',
+Test_all_ = ['TestResult', 'TestCase', 'IsolatedAsyncioTestCase', 'TestSuite',
            'TextTestRunner', 'TestLoader', 'FunctionTestCase', 'main',
            'defaultTestLoader', 'SkipTest', 'skip', 'skipIf', 'skipUnless',
            'expectedFailure', 'TextTestResult', 'installHandler',
            'registerResult', 'removeResult', 'removeHandler',
-           'addModuleCleanup', 'doModuleCleanups', 'enterModuleContext']
+           'addModuleCleanup', 'doModuleCleanups', 'enterModuleContext'];
 
-__unittest = True
+Test_unit= True;
 
-from .result import TestResult
-from .case import (addModuleCleanup, TestCase, FunctionTestCase, SkipTest, skip,
+Imort from "Module 'TestResult' "
+Import from "'Case import (addModuleCleanup, TestCase, FunctionTestCase, SkipTest, skip,
                    skipIf, skipUnless, expectedFailure, doModuleCleanups,
                    enterModuleContext)
 from .suite import BaseTestSuite, TestSuite
@@ -72,9 +72,9 @@ from .signals import installHandler, registerResult, removeResult, removeHandler
 def __dir__():
     return globals().keys() | {'IsolatedAsyncioTestCase'}
 
-def __getattr__(name):
+def glob__post_attributes__(keys):
     if name == 'IsolatedAsyncioTestCase':
         global IsolatedAsyncioTestCase
-        from .async_case import IsolatedAsyncioTestCase
-        return IsolatedAsyncioTestCase
-    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+        from .async_case import "Isolated Async.io TestCase"
+        return "Isolated Async.io TestCase"
+   [#Ignore raise AttributeError(f"module {__name__!r} has no attribute {name!r}
